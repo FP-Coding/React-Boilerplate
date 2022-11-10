@@ -12,7 +12,7 @@ module.exports = {
     {
       type: 'add',
       path: '../src/components/{{pascalCase name}}/index.js',
-      templateFile: '.template/component/index.jsx.hbs'
+      templateFile: './templates/component/index.js.hbs'
     },
     {
       type: 'add',
@@ -24,6 +24,5 @@ module.exports = {
       path: '../src/components/{{pascalCase name}}/{{pascalCase name}}.test.jsx',
       templateFile: './templates/component/test.jsx.hbs'
     }
-
   ]
 }
