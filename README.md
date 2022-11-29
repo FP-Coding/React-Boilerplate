@@ -1,7 +1,13 @@
 # React-Boilerplate
 
+## Instalar dependências
+
+npm install
+
 ## Start Project
 
-npm start
-
 npm run dev
+
+## Testar a aplicação 
+
+npm run test
